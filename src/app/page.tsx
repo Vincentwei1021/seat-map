@@ -151,10 +151,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 flex flex-wrap items-center justify-between text-xs text-gray-400">
           <span>&copy; 2026 ToolboxLite</span>
           <div className="flex gap-4">
-            <a href="/privacy" className="hover:text-gray-600 transition-colors">
+            <a href="/privacy" className="hover:text-gray-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
               隐私政策
             </a>
-            <a href="/terms" className="hover:text-gray-600 transition-colors">
+            <a href="/terms" className="hover:text-gray-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
               使用条款
             </a>
           </div>
